@@ -1,0 +1,21 @@
+.min-height-400
+{
+    min-height: 400px;
+}
+
+.file-browser {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 5px;
+    max-height: 390px;
+    overflow-y: scroll;
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    cursor: pointer;
+}
+

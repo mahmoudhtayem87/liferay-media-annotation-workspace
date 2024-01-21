@@ -1,0 +1,30 @@
+.annotation-print-container
+{
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    position: relative;
+}
+.annotation-print-container Document
+{
+    width: 60% !important;
+}
+
+.annotation-print-container Page
+{
+    width: 100% !important;
+}
+
+.annotation-print-container view
+{
+    width: 100% !important;
+}
+
+.annotation-print-container text
+{
+    width: 100% !important;
+}

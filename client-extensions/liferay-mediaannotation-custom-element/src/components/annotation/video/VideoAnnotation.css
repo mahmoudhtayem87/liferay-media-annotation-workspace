@@ -1,0 +1,125 @@
+.annotation-main-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: var(--dark);
+    overflow: scroll;
+    position: relative;
+}
+.annotation-container {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.layout-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.layout-container .content-col {
+    flex: 1
+}
+
+.layout-container .panel-col{
+    flex-basis: 30%;
+    max-width: 30%;
+}
+
+.annotations-list
+{
+    overflow-y: scroll;
+}
+
+.annotations-list .item
+{
+    margin-bottom: 0.5rem;
+}
+.annotation-handle
+{
+    cursor: pointer;
+}
+.player-controls
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2rem;
+}
+
+.annotation-list-item-title-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.annotation-list-item-title{
+    flex: 1
+}
+
+.annotation-list-item-time{
+    flex-basis: 20%;
+    align-items: end;
+    display: flex;
+}
+
+.annotation-list-item-time *{
+    margin-left: auto;
+}
+
+.svg-block {
+    background-color: lightgray;
+    opacity: 0.9;
+    display: flex;
+}
+
+.svg-block span{
+    color:var(--dark);
+    font-weight: bolder ;
+    margin: auto;
+}
+
+.no-file-selected {
+    background-color: var(--dark);
+    opacity: 1;
+    display: flex;
+}
+
+.no-file-selected span{
+    color:var(--light);
+    font-weight: bolder ;
+    margin: auto;
+}
+
+.file-browser-container
+{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(128, 128, 128, 0.24);
+    height: 100%;
+    z-index: 1036;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.video-progress-bar
+{
+    width: 100%;
+    position: absolute;
+    bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.video-progress-bar > input{
+    width: 50%;
+}

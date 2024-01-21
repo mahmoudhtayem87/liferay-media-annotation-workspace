@@ -1,0 +1,63 @@
+{
+  "name": "liferay-mediaannotation-custom-element",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@clayui/button": "^3.107.0",
+    "@clayui/card": "^3.108.0",
+    "@clayui/core": "^3.108.0",
+    "@clayui/css": "^3.108.0",
+    "@clayui/icon": "^3.106.1",
+    "@clayui/label": "^3.106.1",
+    "@clayui/layout": "^3.106.1",
+    "@clayui/list": "^3.108.0",
+    "@clayui/modal": "^3.107.0",
+    "@clayui/panel": "^3.108.0",
+    "@clayui/toolbar": "^3.107.0",
+    "@react-pdf/renderer": "^3.2.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.5",
+    "concat": "^1.0.3",
+    "d3": "^7.8.5",
+    "d3-svg-annotation": "^2.5.1",
+    "express": "^4.18.2",
+    "formik": "^2.4.5",
+    "fs-extra": "^11.2.0",
+    "path": "^0.12.7",
+    "react": "^18.2.0",
+    "react-color": "^2.19.3",
+    "react-dom": "^18.2.0",
+    "react-player": "^2.14.1",
+    "react-scripts": "5.0.1",
+    "react-svg-pan-zoom": "^3.12.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lr-build": "react-scripts build && node ./build.js",
+    "lr-publish": "npm run lr-build && node ./publish.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

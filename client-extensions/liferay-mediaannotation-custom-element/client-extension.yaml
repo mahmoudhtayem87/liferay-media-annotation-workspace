@@ -1,0 +1,15 @@
+assemble:
+    - from: build/static
+      into: static
+liferay-mediaannotation-custom-element:
+    cssURLs:
+        - css/main.*.css
+    friendlyURLMapping: liferay-mediaannotation-custom-element
+    htmlElementName: liferay-mediaannotation-custom-element
+    instanceable: true
+    name: Liferay Media Annotation
+    portletCategoryName: category.client-extensions
+    type: customElement
+    urls:
+        - js/main.*.js
+    useESM: true

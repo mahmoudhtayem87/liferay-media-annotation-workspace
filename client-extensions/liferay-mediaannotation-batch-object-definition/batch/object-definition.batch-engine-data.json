@@ -1,0 +1,398 @@
+{
+  "configuration": {
+    "className": "com.liferay.object.admin.rest.dto.v1_0.ObjectDefinition",
+    "parameters": {
+      "containsHeaders": "true",
+      "createStrategy": "UPSERT",
+      "importStrategy": "ON_ERROR_FAIL",
+      "taskItemDelegateName": "DEFAULT",
+      "updateStrategy": "UPDATE"
+    }
+  },
+  "items": [
+    {
+      "enableComments": false,
+      "enableCategorization": true,
+      "accountEntryRestrictedObjectFieldName": "",
+      "enableLocalization": false,
+      "accountEntryRestricted": false,
+      "externalReferenceCode": "D10D9_MEDIA_ANNOTATION",
+      "objectFields": [
+        {
+          "indexed": false,
+          "localized": false,
+          "objectFieldSettings": [],
+          "readOnly": "true",
+          "DBType": "String",
+          "label": {
+            "en_US": "Author"
+          },
+          "type": "String",
+          "required": false,
+          "externalReferenceCode": "4496876d-fe5d-5978-c2a6-9f6adcda69e3",
+          "indexedAsKeyword": false,
+          "system": true,
+          "indexedLanguageId": "",
+          "name": "creator",
+          "state": false,
+          "businessType": "Text",
+          "readOnlyConditionExpression": ""
+        },
+        {
+          "indexed": false,
+          "localized": false,
+          "objectFieldSettings": [],
+          "readOnly": "true",
+          "DBType": "Date",
+          "label": {
+            "en_US": "Create Date"
+          },
+          "type": "Date",
+          "required": false,
+          "externalReferenceCode": "1fdfa310-00dc-b6b0-a824-3a3f526474d8",
+          "indexedAsKeyword": false,
+          "system": true,
+          "indexedLanguageId": "",
+          "name": "createDate",
+          "state": false,
+          "businessType": "Date",
+          "readOnlyConditionExpression": ""
+        },
+        {
+          "indexed": false,
+          "localized": false,
+          "objectFieldSettings": [],
+          "readOnly": "false",
+          "DBType": "String",
+          "label": {
+            "en_US": "External Reference Code"
+          },
+          "type": "String",
+          "required": false,
+          "externalReferenceCode": "668980d4-a290-65d8-349d-655b80e74ae0",
+          "indexedAsKeyword": false,
+          "system": true,
+          "indexedLanguageId": "",
+          "name": "externalReferenceCode",
+          "state": false,
+          "businessType": "Text",
+          "readOnlyConditionExpression": ""
+        },
+        {
+          "indexed": true,
+          "localized": false,
+          "objectFieldSettings": [],
+          "readOnly": "true",
+          "DBType": "Long",
+          "label": {
+            "en_US": "ID"
+          },
+          "type": "Long",
+          "required": false,
+          "externalReferenceCode": "dc0522a0-254f-df04-c3ec-841e5962abea",
+          "indexedAsKeyword": true,
+          "system": true,
+          "indexedLanguageId": "",
+          "name": "id",
+          "state": false,
+          "businessType": "LongInteger",
+          "readOnlyConditionExpression": ""
+        },
+        {
+          "indexed": false,
+          "localized": false,
+          "objectFieldSettings": [],
+          "readOnly": "true",
+          "DBType": "Date",
+          "label": {
+            "en_US": "Modified Date"
+          },
+          "type": "Date",
+          "required": false,
+          "externalReferenceCode": "2902f25d-07e0-08b2-cece-f22ab95bccee",
+          "indexedAsKeyword": false,
+          "system": true,
+          "indexedLanguageId": "",
+          "name": "modifiedDate",
+          "state": false,
+          "businessType": "Date",
+          "readOnlyConditionExpression": ""
+        },
+        {
+          "indexed": false,
+          "localized": false,
+          "objectFieldSettings": [],
+          "readOnly": "true",
+          "DBType": "String",
+          "label": {
+            "en_US": "Status"
+          },
+          "type": "String",
+          "required": false,
+          "externalReferenceCode": "6afc63be-135b-5108-edf3-0b23cbfc8233",
+          "indexedAsKeyword": false,
+          "system": true,
+          "indexedLanguageId": "",
+          "name": "status",
+          "state": false,
+          "businessType": "Text",
+          "readOnlyConditionExpression": ""
+        },
+        {
+          "indexed": true,
+          "localized": false,
+          "objectFieldSettings": [],
+          "readOnly": "false",
+          "DBType": "Long",
+          "label": {
+            "en_US": "Asset ID"
+          },
+          "type": "Long",
+          "required": true,
+          "externalReferenceCode": "dc975b6e-96c1-5258-eb0c-bdc6c6bf6ecb",
+          "indexedAsKeyword": false,
+          "system": false,
+          "indexedLanguageId": "",
+          "name": "assetID",
+          "state": false,
+          "businessType": "LongInteger",
+          "readOnlyConditionExpression": ""
+        },
+        {
+          "indexed": true,
+          "localized": false,
+          "objectFieldSettings": [],
+          "readOnly": "false",
+          "DBType": "String",
+          "label": {
+            "en_US": "Title"
+          },
+          "type": "String",
+          "required": true,
+          "externalReferenceCode": "33569547-7aec-cbed-de77-abbab5a73be8",
+          "indexedAsKeyword": false,
+          "system": false,
+          "indexedLanguageId": "en_US",
+          "name": "title",
+          "state": false,
+          "businessType": "Text",
+          "readOnlyConditionExpression": ""
+        },
+        {
+          "indexed": true,
+          "localized": false,
+          "objectFieldSettings": [
+            {
+              "name": "showCounter",
+              "value": false
+            }
+          ],
+          "readOnly": "false",
+          "DBType": "Clob",
+          "label": {
+            "en_US": "Annotation"
+          },
+          "type": "Clob",
+          "required": true,
+          "externalReferenceCode": "1091e3ff-5143-d1a3-02b4-6e0949f97289",
+          "indexedAsKeyword": false,
+          "system": false,
+          "indexedLanguageId": "en_US",
+          "name": "annotation",
+          "state": false,
+          "businessType": "LongText",
+          "readOnlyConditionExpression": ""
+        },
+        {
+          "indexed": true,
+          "localized": false,
+          "objectFieldSettings": [],
+          "readOnly": "false",
+          "DBType": "String",
+          "label": {
+            "en_US": "Color"
+          },
+          "type": "String",
+          "required": true,
+          "externalReferenceCode": "7d6b3418-aa76-6c4f-32c7-306400f14759",
+          "indexedAsKeyword": false,
+          "system": false,
+          "indexedLanguageId": "en_US",
+          "name": "color",
+          "state": false,
+          "businessType": "Text",
+          "readOnlyConditionExpression": ""
+        },
+        {
+          "indexed": true,
+          "localized": false,
+          "objectFieldSettings": [],
+          "readOnly": "false",
+          "DBType": "BigDecimal",
+          "label": {
+            "en_US": "Annotation X Coordinate"
+          },
+          "type": "BigDecimal",
+          "required": true,
+          "externalReferenceCode": "dab7d646-9c9a-1396-9b73-4406a08d0400",
+          "indexedAsKeyword": false,
+          "system": false,
+          "indexedLanguageId": "",
+          "name": "annotationXCoordinate",
+          "state": false,
+          "businessType": "PrecisionDecimal",
+          "readOnlyConditionExpression": ""
+        },
+        {
+          "indexed": true,
+          "localized": false,
+          "objectFieldSettings": [],
+          "readOnly": "false",
+          "DBType": "BigDecimal",
+          "label": {
+            "en_US": "Annotation Y Coordinate"
+          },
+          "type": "BigDecimal",
+          "required": true,
+          "externalReferenceCode": "d00e545e-bf8b-c352-b43a-cd4fbc15b288",
+          "indexedAsKeyword": false,
+          "system": false,
+          "indexedLanguageId": "",
+          "name": "annotationYCoordinate",
+          "state": false,
+          "businessType": "PrecisionDecimal",
+          "readOnlyConditionExpression": ""
+        },
+        {
+          "indexed": true,
+          "localized": false,
+          "objectFieldSettings": [],
+          "readOnly": "false",
+          "DBType": "Integer",
+          "label": {
+            "en_US": "Window Width"
+          },
+          "type": "Integer",
+          "required": true,
+          "externalReferenceCode": "9a93982d-bb07-e774-82ab-b984203ab144",
+          "indexedAsKeyword": false,
+          "system": false,
+          "indexedLanguageId": "",
+          "name": "windowWidth",
+          "state": false,
+          "businessType": "Integer",
+          "readOnlyConditionExpression": ""
+        },
+        {
+          "indexed": true,
+          "localized": false,
+          "objectFieldSettings": [],
+          "readOnly": "false",
+          "DBType": "Integer",
+          "label": {
+            "en_US": "Window Height"
+          },
+          "type": "Integer",
+          "required": true,
+          "externalReferenceCode": "10af8162-7624-486e-76c0-24cadcab4c96",
+          "indexedAsKeyword": false,
+          "system": false,
+          "indexedLanguageId": "",
+          "name": "windowHeight",
+          "state": false,
+          "businessType": "Integer",
+          "readOnlyConditionExpression": ""
+        },
+        {
+          "indexed": true,
+          "localized": false,
+          "objectFieldSettings": [],
+          "readOnly": "false",
+          "DBType": "BigDecimal",
+          "label": {
+            "en_US": "Time (Seconds)"
+          },
+          "type": "BigDecimal",
+          "required": true,
+          "externalReferenceCode": "9f39af7f-3c98-c0f0-a0fb-2e26c827e3a3",
+          "indexedAsKeyword": false,
+          "system": false,
+          "indexedLanguageId": "",
+          "name": "timeSeconds",
+          "state": false,
+          "businessType": "PrecisionDecimal",
+          "readOnlyConditionExpression": ""
+        },
+        {
+          "indexed": true,
+          "localized": false,
+          "objectFieldSettings": [
+            {
+              "name": "acceptedFileExtensions",
+              "value": "jpeg, jpg, pdf, png"
+            },
+            {
+              "name": "maximumFileSize",
+              "value": 100
+            },
+            {
+              "name": "fileSource",
+              "value": "userComputer"
+            },
+            {
+              "name": "showFilesInDocumentsAndMedia",
+              "value": false
+            }
+          ],
+          "readOnly": "false",
+          "DBType": "Long",
+          "label": {
+            "en_US": "Screenshot"
+          },
+          "type": "Long",
+          "required": false,
+          "externalReferenceCode": "cb82f733-2356-dc53-db02-cd046a5522a8",
+          "indexedAsKeyword": false,
+          "system": false,
+          "indexedLanguageId": "en_US",
+          "name": "screenshot",
+          "state": false,
+          "businessType": "Attachment",
+          "readOnlyConditionExpression": ""
+        }
+      ],
+      "restContextPath": "/o/c/d10d90mediaannotations",
+      "scope": "company",
+      "portlet": true,
+      "modifiable": true,
+      "parameterRequired": false,
+      "enableObjectEntryHistory": false,
+      "titleObjectFieldName": "id",
+      "active": true,
+      "defaultLanguageId": "en_US",
+      "label": {
+        "en_US": "Media Annotation"
+      },
+      "panelCategoryKey": "applications_menu.applications.custom.apps",
+      "pluralLabel": {
+        "en_US": "Media Annotations"
+      },
+      "objectLayouts": [],
+      "system": false,
+      "objectViews": [],
+      "name": "D10D9MediaAnnotation",
+      "storageType": "default",
+      "actions": {
+        "permissions": {},
+        "get": {},
+        "update": {},
+        "delete": {}
+      },
+      "status": {
+        "label_i18n": "Approved",
+        "code": 0,
+        "label": "approved"
+      }
+    }
+  ]
+}
